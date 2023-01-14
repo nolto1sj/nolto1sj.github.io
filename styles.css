@@ -8,5 +8,9 @@ img {
     border: 1px solid rgba(0, 0, 0, 0.8);
     border-radius: 50%;
     padding: 5px;
-    width: 200px;
+    width: 300px;
+}
+
+#intro {
+    border-radius: 25px;
 }
