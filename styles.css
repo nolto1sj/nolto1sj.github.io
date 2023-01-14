@@ -11,6 +11,13 @@ img {
     width: 300px;
 }
 
+hr {
+    color: aliceblue;
+    height: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
 #intro {
     border-radius: 25px;
 }
