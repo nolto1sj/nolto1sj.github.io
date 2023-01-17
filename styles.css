@@ -8,16 +8,16 @@ img {
     border: 1px solid rgba(0, 0, 0, 0.8);
     border-radius: 50%;
     padding: 5px;
-    width: 300px;
+    width: 350px;
 }
 
-#external-linkedin{
+#external-linkedin {
     border-radius: 25px;
     width: 100px;
     padding: 0px;
 }
 
-#external-github{
+#external-github {
     border-radius: 25px;
     width: 100px;
     padding: 0px;
@@ -28,13 +28,54 @@ hr {
     height: 20px;
     margin-left: 40px;
     margin-right: 40px;
+    border-width: 2px;
+}
+
+#big-hr{
+    border-width: 4px;
+    border-radius: 5%;
+    border-color: white;
 }
 
 #intro {
     border-radius: 25px;
+    margin-bottom: 1rem;
+    -webkit-transition: all 1s; /* For Safari 3.0 to 6.0 */
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    margin-left: 5%; margin-right: 5%;
+    font-size: 1.5rem;
 }
 
-#nav-links{
+#intro:hover {
+    margin-left: 1%;
+    margin-right: 1%;
+    font-kerning: normal;
+}
+
+#intro-info{
+    margin-right: 3rem;
+}
+
+#contact {
+    border-radius: 25px;
+    margin-bottom: 1rem;
+    margin-left: 5%; margin-right: 5%;
+}
+
+#education {
+    border-radius: 25px;
+    margin-bottom: 1rem;
+}
+
+#projects {
+    border-radius: 25px;
+    margin-bottom: 1rem;
+}
+
+
+#nav-links {
     color: #cec8c8;
     margin: 20px;
     -webkit-transition: all 1s; /* For Safari 3.0 to 6.0 */
@@ -42,11 +83,13 @@ hr {
     -o-transition: all 1s;
     transition: all 1s;
 }
+
 #nav-links:hover {
     color: #5485c4;
     font-size:3rem;
 }
-#name{
+
+#name {
     font-size: 4rem;
     color: #cec8c8;
     margin: 20px;
@@ -55,8 +98,11 @@ hr {
     -o-transition: all 1s;
     transition: all 1s;
 }
+
 #name:hover {
     color: #5485c4;
     font-size:5rem;
 }
+
+
 
