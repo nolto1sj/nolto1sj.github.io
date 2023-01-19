@@ -1,9 +1,4 @@
-@media only screen and (max-width: 600px) {
-    img{
-        width: 100%;
-        max-width: 100%;
-    }
-
+@media only screen and (max-width: 765px) {
     #name{
         justify-content: center;
         align-items: center;
@@ -11,11 +6,27 @@
         letter-spacing: 5px;
         
     }
+    #ed-text-1{
+        margin-top: 3rem;
+    }
 
     #nav{
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+
+    #nav-links {
+        margin: 50px;
+        font-size: 40px;
+        letter-spacing: 5px;
+        color: #cec8c8;
+    }
+}
+@media only screen and (max-width: 600px) {
+    img{
+        width: 100%;
+        max-width: 100%;
     }
 
     #nav-links {
@@ -60,15 +71,44 @@ h2{
 a {
     text-decoration: none;
     font-size: 2rem;
-    margin-left: 3rem;
 }
-img {
+
+#headshot {
     background-color: rgba(15, 1, 1, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
     border-radius: 50%;
     padding: 5px;
     max-height: 300px;
     max-width: 300px;
+}
+
+#img-gc {
+    padding-top: 56.25px;
+    padding-bottom: 56.25px;
+    max-height: 300px;
+    max-width: 300px;
+    color: #cec8c8;    
+    -webkit-transition: all 0.2s; /* For Safari 3.0 to 6.0 */
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    border-radius: 25px;
+}
+
+#img-cmu {
+    padding: 5px;
+    max-height: 300px;
+    max-width: 300px;
+    color: #cec8c8;    
+    -webkit-transition: all 0.2s; /* For Safari 3.0 to 6.0 */
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    border-radius: 25px;
+}
+
+#img-gc:hover, #img-cmu:hover {
+    background-color: rgb(255,255,255,0.1);
 }
 
 #external-linkedin {
@@ -94,10 +134,21 @@ hr {
 #big-hr{
     border-width: 4px;
     border-radius: 5%;
+    margin-top: 3rem;
     border-color: white;
 }
 
-#intro {
+#sm-hr{
+    border-width: 4px;
+    border-radius: 5%;
+    margin-top: .5rem;
+    margin-left: 14px;
+    margin-right: 14px;
+    border-color: white;
+}
+
+
+#intro, #education {
     border-radius: 25px;
     margin-bottom: 1rem;
     -webkit-transition: all 1s; /* For Safari 3.0 to 6.0 */
@@ -106,6 +157,24 @@ hr {
     transition: all 1s;
     margin-left: 5%; margin-right: 5%;
     font-size: 1.5rem;
+    background: linear-gradient(to right, #2888c0, #cfd2d6 )
+}
+
+#intro:hover, #education:hover {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#education-info {
+    justify-content:space-around;
+    align-items: center;
+    margin-left: 5%; margin-right: 5%;
+}
+
+#contact, #projects, footer {
+    border-radius: 25px;
+    margin-bottom: 1rem;
+    margin-left: 5%; margin-right: 5%;
 }
 
 .card {
@@ -122,27 +191,9 @@ hr {
     
 }
 
-#intro:hover {
-    margin-left: 1%;
-    margin-right: 1%;
-    font-kerning: normal;
-}
 
-#contact {
-    border-radius: 25px;
-    margin-bottom: 1rem;
-    margin-left: 5%; margin-right: 5%;
-}
 
-#education {
-    border-radius: 25px;
-    margin-bottom: 1rem;
-}
 
-#projects {
-    border-radius: 25px;
-    margin-bottom: 1rem;
-}
 
 #name {
     font-size: 4rem;
@@ -159,6 +210,8 @@ hr {
     color: #5485c4;
     font-size:5rem;
 }
+
+
 
 
 
