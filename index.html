@@ -34,7 +34,7 @@
         <hr>
     </header>
 
-    <section id="intro" class="bg-primary text-black p-5 text-center shadow-sm">
+    <section id="intro" class="bg-primary text-dark p-5 text-center shadow-sm">
         <div class="container">
             <div class="d-md-flex" style="justify-content: space-evenly; align-items: center; flex-direction: row-reverse;">
                 <img id="headshot" class="m-auto" src="headshot.JPG" alt="Spencer Nolton">
@@ -50,7 +50,7 @@
         </div>
     </section>
 
-    <section id="education" class="text-black p-5 text-center shadow-sm">
+    <section id="education" class="text-dark p-5 text-center shadow-sm">
         <div class="container">
             <div class="d-md-flex" style="justify-content: space-evenly; align-items: center; flex-direction: row;">
                 <a href="https://www.grandcircus.co/"><img id="img-gc" class="m-auto" src="https://i0.wp.com/mitechnews.com/wp-content/uploads/2016/09/GrandCircus-logo.png?fit=320%2C200&ssl=1" alt="Grand Circus"></a>
@@ -63,16 +63,16 @@
             <div class="d-md-flex" style="justify-content: space-evenly; align-items: center; flex-direction: row;">
                 <a href="https://www.cmich.edu/"><img id="img-cmu" class="m-auto" src="https://wmsbf.org/wp-content/uploads/2022/02/78349817_cmuwordmark_maroon_1_480.png" alt="CMU"></a> 
                 <div id="education-info">
-                    <h2>I also hold a Bachelor's degree in Music Education from Central Michigan University</h4>
+                    <h2>I also hold a Bachelor's degree in Music Education from Central Michigan University.</h4>
                     <p>With my degree, I taught elementary music with Clarkston Public Schools. I truly enjoyed my time with my students. I also have spent years teaching marching bands and drumlines!</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="projects" class="text-black p-5 text-center shadow-sm"  style="background: linear-gradient(to right, #2888c0, #cfd2d6 ); margin-left: 5%; margin-right: 5%;">
+    <section id="projects" class="p-5 text-center shadow-sm">
         <div class="container">
-            <h1>Notable Projects</h1>
+            <h1 class="text-dark">Notable Projects</h1>
                 <div class="grid-container">
                     <div class="d-inline-flex" style="flex-direction: column;">
                         <div class="grid-item">
@@ -89,7 +89,7 @@
                             <div id="lt-card" class="card border-primary mb-3">
                                 <h2 class="p-3 text-white">Library Terminal</h2>
                                 <p class="text-white">As a 3-person team, we created a C# console app that simulates an experience accessing a library terminal. One can search through available books, reserve them, checkout and more.</p>
-                                <a href="https://github.com/nolto1sj/Library-Terminal" role="button" class="btn btn-primary btn-lg" style="margin: 30px;" >Github Repo</a>
+                                <a href="https://github.com/nolto1sj/Library-Terminal" role="button" class="btn btn-primary btn-lg" style="margin: 30px;" >GitHub Repo</a>
                             </div>
                         </div>
 
@@ -97,18 +97,9 @@
                             <div id="td-card" class="card border-primary mb-3">
                                 <h2 class="p-3 text-black">ToDo</h2>
                                 <p class="p-3 text-black" style="font-weight: bolder;">Here, I created a small, interactive todo module in Angular. This can be used to spice up any Angular web app and create a more interactive experience for the user.</p>
-                                <a href="https://github.com/nolto1sj/angular-todo-list" role="button" class="btn btn-primary btn-lg" style="margin: 30px;" >Pitch Video</a>
+                                <a href="https://github.com/nolto1sj/angular-todo-list" role="button" class="btn btn-primary btn-lg" style="margin: 30px;" >GitHub Repo</a>
                             </div>
                         </div>
-
-                        <div class="grid-item">
-                            <div id="bnc-card" class="card border-primary mb-3">
-                                <h2 class="p-3 text-white text">Boots N' Cats</h2>
-                                <p class="p-3 text-white">Boots N' Cats is an album review site that utilizes Spotify's Web API as well as our own API and database. Here, one can search through Spotify's catalog and choose an album to review. This review will then be posted on the reviews page alongside all users' reviews. This app also includes an artist aggregator that generates a web of related artists with links to their Spotify artist page.</p>
-                                <a href="https://youtu.be/iQ32I69Ij_w" role="button" class="btn btn-primary btn-lg" style="margin: 30px;" >Pitch Video</a>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
         </div>
@@ -117,6 +108,12 @@
     <section id="contact" class="bg-warning bg-gradient text-black p-5 text-center shadow-sm">
         <div class="container">
             <h1>Contact Me</h1>
+            <form class="container text-center border border-white p-5 col-md-8 col-xs-10" accept-charset="utf-8" action="https://formspree.io/f/myyazaog" method="POST">
+                <input class="form-control mb-4" type="text" name="name" id="full-name" placeholder="Full Name" required>
+                <input class="form-control mb-4" type="text" name="email" id="email" placeholder="email@example.com" required>
+                <textarea class="form-control mb-4" rows="5" name="message" id="message" placeholder="Send me a message here and I will respond as soon as possible!" required></textarea>
+                <button class="btn btn-info btn-lg"type="submit">Send</button>
+                </form>
         </div>
     </section>
     

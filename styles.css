@@ -43,7 +43,11 @@
     
     .btn, .text-white {
         font-size: 50%;
-        text-shadow: 2px 2px black;
+        text-shadow: 1px 1px 3px black;
+    }
+
+    .text-black{
+        text-shadow: 1px 1px 3px white;
     }
 
    
@@ -68,7 +72,7 @@
     }
 
     .btn, .text-white {
-        font-size: 50%;
+        font-size: 65%;
     }
 }
 
@@ -89,6 +93,10 @@
     }
 }
 
+.text-white, .text-black{
+    font-weight: bold;
+}
+
 html,body
 {
     width: 100%;
@@ -96,6 +104,7 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+    scroll-behavior: smooth;
 }
 
 body{
@@ -189,8 +198,11 @@ hr {
     border-color: white;
 }
 
+.border{
+    border-radius: 1%;
+}
 
-#intro, #education {
+#intro, #education, #projects, #contact {
     border-radius: 25px;
     margin-bottom: 1rem;
     -webkit-transition: all 1s; /* For Safari 3.0 to 6.0 */
@@ -202,7 +214,7 @@ hr {
     background: linear-gradient(to right, #2888c0, #cfd2d6 )
 }
 
-#intro:hover, #education:hover {
+#intro:hover, #education:hover, #projects:hover, #contact:hover {
     margin-left: 3%;
     margin-right: 3%;
 }
@@ -221,13 +233,12 @@ hr {
 
 .card {
     word-wrap: break-word;
-    background-color: #4e5d6c;
-    background-clip: border-box;
     box-shadow: 0 10px 40px 0 rgb(0, 0, 0);
     
 }
+
 #bnc-card, #lt-card, #td-card{
-    background-image: url(https://play-lh.googleusercontent.com/eN0IexSzxpUDMfFtm-OyM-nNs44Y74Q3k51bxAMhTvrTnuA4OGnTi_fodN4cl-XxDQc);
+    background-image: url(https://bsmedia.business-standard.com/_media/bs/img/article/2020-04/28/full/1588061397-9539.png);
     background-position: center;
     background-size: cover;
     padding: 0;
@@ -235,13 +246,14 @@ hr {
     display:flexbox; justify-content:space-between; padding: 20px; font-size: 30px; text-align: center;
 }
 
+
 #lt-card{
-    background-image: url(https://wallpaperaccess.com/full/2862102.jpg);
+    background-image: url(https://w0.peakpx.com/wallpaper/1018/486/HD-wallpaper-library-aesthetic.jpg);
 }
 
 #td-card{
     
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfHWG9JnpFN0vD5Q0HG75Kb2n0HziWFJ9-Cw&usqp=CAU);
+    background-image: url(https://www.meistertask.com/blog/wp-content/uploads/2019/12/The-Power-of-Checklists.jpg);
 }
 
 .grid-container {
