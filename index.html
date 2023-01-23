@@ -12,7 +12,7 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="./styles.css" />
 </head>
-<body style="background-image: url(background.png); background-repeat: no-repeat; background-attachment: fixed; background-size: 100% 100%; ">
+<body style="background-image: url(background.png); background-repeat: no-repeat; background-attachment: fixed; background-size: 100% 100%;">
     <header>
         <!-- name -->
         <div class="container">
@@ -27,6 +27,7 @@
                     <a id="nav-links" href="#education">Education</a>
                     <a id="nav-links" href="#projects">Projects</a>
                     <a id="nav-links" href="#contact">Contact</a>
+                    <a id="nav-links" href="Spencer_Nolton_Resume 1-23.pdf">Resume</a>
                 </div>
             </div>
         </nav>
@@ -67,22 +68,49 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-        </div>
     </section>
 
     <section id="projects" class="text-black p-5 text-center shadow-sm"  style="background: linear-gradient(to right, #2888c0, #cfd2d6 ); margin-left: 5%; margin-right: 5%;">
-        <div>
+        <div class="container">
             <h1>Notable Projects</h1>
-        </div>
-        <div id="bnc-card" class="card border-primary mb-3">
-            <div class="d-inline-flex" style="justify-content: space-evenly;">
-                <div>
-                    <h2 class="p-3 text-white text">Boots N' Cats</h2>
-                    <p class="p-3 text-white">Boots N' Cats is an album review site that utilizes Spotify's Web API as well as our own API and database. Here, one can search through Spotify's catalog and choose an album to review. This review will then be posted on the reviews page alongside all users' reviews. This app also includes an artist aggregator that generates a web of related artists with links to their Spotify artist page.</p>
-                    <a href="https://youtu.be/iQ32I69Ij_w" role="button" class="btn btn-primary btn-lg" style="margin: 30px;" >Pitch Video</a>
+                <div class="grid-container">
+                    <div class="d-inline-flex" style="flex-direction: column;">
+                        <div class="grid-item">
+                            <div id="bnc-card" class="card border-primary mb-3">
+                                <h2 class="p-3 text-white">Boots N' Cats</h2>
+                                <p class="text-white">Boots N' Cats is an album review site that utilizes Spotify's Web API as well as our own API and database. Here, one can search through Spotify's catalog and choose an album to review. This review will then be posted on the reviews page alongside all users' reviews. This app also includes an artist aggregator that generates a web of related artists with links to their Spotify artist page.</p>
+                                <a href="https://youtu.be/iQ32I69Ij_w" role="button" class="btn btn-primary btn-lg" style="margin: 30px;" >Pitch Video</a>
+                                <a href="https://github.com/nolto1sj/BootsAndCatsFrontEnd" role="button" class="btn btn-warning btn-lg" style="margin: 30px;">Frontend Repo</a>
+                                <a href="https://github.com/Tolu112/BootsAndCats" role="button" class="btn btn-warning btn-lg" style="margin: 30px;">Backend Repo</a>
+                            </div>
+                        </div>
+
+                        <div class="grid-item">
+                            <div id="lt-card" class="card border-primary mb-3">
+                                <h2 class="p-3 text-white">Library Terminal</h2>
+                                <p class="text-white">As a 3-person team, we created a C# console app that simulates an experience accessing a library terminal. One can search through available books, reserve them, checkout and more.</p>
+                                <a href="https://github.com/nolto1sj/Library-Terminal" role="button" class="btn btn-primary btn-lg" style="margin: 30px;" >Github Repo</a>
+                            </div>
+                        </div>
+
+                        <div class="grid-item">
+                            <div id="td-card" class="card border-primary mb-3">
+                                <h2 class="p-3 text-black">ToDo</h2>
+                                <p class="p-3 text-black" style="font-weight: bolder;">Here, I created a small, interactive todo module in Angular. This can be used to spice up any Angular web app and create a more interactive experience for the user.</p>
+                                <a href="https://github.com/nolto1sj/angular-todo-list" role="button" class="btn btn-primary btn-lg" style="margin: 30px;" >Pitch Video</a>
+                            </div>
+                        </div>
+
+                        <div class="grid-item">
+                            <div id="bnc-card" class="card border-primary mb-3">
+                                <h2 class="p-3 text-white text">Boots N' Cats</h2>
+                                <p class="p-3 text-white">Boots N' Cats is an album review site that utilizes Spotify's Web API as well as our own API and database. Here, one can search through Spotify's catalog and choose an album to review. This review will then be posted on the reviews page alongside all users' reviews. This app also includes an artist aggregator that generates a web of related artists with links to their Spotify artist page.</p>
+                                <a href="https://youtu.be/iQ32I69Ij_w" role="button" class="btn btn-primary btn-lg" style="margin: 30px;" >Pitch Video</a>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
-            </div>
         </div>
     </section>
 

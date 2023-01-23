@@ -1,4 +1,4 @@
-@media only screen and (max-width: 765px) {
+@media only screen and (max-width: 767px) {
     #name{
         justify-content: center;
         align-items: center;
@@ -22,6 +22,9 @@
         letter-spacing: 5px;
         color: #cec8c8;
     }
+
+    
+    
 }
 @media only screen and (max-width: 600px) {
     img{
@@ -36,6 +39,36 @@
         font-size: 40px;
         letter-spacing: 5px;
         color: #cec8c8;
+    }
+    
+    .btn, .text-white {
+        font-size: 50%;
+        text-shadow: 2px 2px black;
+    }
+
+   
+    
+}
+
+@media only screen and (max-width: 375px) {
+    .card{
+       max-width: fit-content;
+    }
+
+    hr{
+        margin-top: 5%;
+    }
+
+    #big-hr{
+        margin-top: 1rem;
+    }
+    
+    p{
+        font-size: 70%;
+    }
+
+    .btn, .text-white {
+        font-size: 50%;
     }
 }
 
@@ -54,6 +87,15 @@
         color: #5485c4;
         font-size:3rem;
     }
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
 body{
@@ -178,17 +220,41 @@ hr {
 }
 
 .card {
+    word-wrap: break-word;
+    background-color: #4e5d6c;
+    background-clip: border-box;
     box-shadow: 0 10px 40px 0 rgb(0, 0, 0);
     
 }
-#bnc-card{
+#bnc-card, #lt-card, #td-card{
     background-image: url(https://play-lh.googleusercontent.com/eN0IexSzxpUDMfFtm-OyM-nNs44Y74Q3k51bxAMhTvrTnuA4OGnTi_fodN4cl-XxDQc);
     background-position: center;
     background-size: cover;
     padding: 0;
     border-radius: 25px;
-    max-width: 70%; display:flexbox; justify-content:space-between; padding: 20px; font-size: 30px; text-align: center;
+    display:flexbox; justify-content:space-between; padding: 20px; font-size: 30px; text-align: center;
+}
+
+#lt-card{
+    background-image: url(https://wallpaperaccess.com/full/2862102.jpg);
+}
+
+#td-card{
     
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfHWG9JnpFN0vD5Q0HG75Kb2n0HziWFJ9-Cw&usqp=CAU);
+}
+
+.grid-container {
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
 }
 
 
